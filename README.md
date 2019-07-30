@@ -2,23 +2,25 @@ virgo
 =====
 Virtual Desktop Manager for Windows
 
-[Download here](https://github.com/papplampe/virgo/releases/download/v.1.4.2/virgo.zip)
+[Download here](https://github.com/lomotHo/virgo/releases)
 
 Features:
 - resource friendly, exe is <10kb on disk and uses <1mb memory while running
-- 4 virtual desktops (more if you change a constant and recompile the code)
+- 5 virtual desktops (more if you change a constant and recompile the code)
 - shows only a tray icon with the number of the desktop you are on
 
 Hotkeys:
 
-        ALT + 1..4             -> changes to desktop 1..4
-        CTRL + 1..4            -> moves active window to desktop 1..4
+        CTRL + 1..4             -> changes to desktop 1..4
+        ALT + 1..4            -> moves active window to desktop 1..4
+        CTRL + ALT + 1..4            -> moves active window and go to desktop 1..4
+        CTRL + SHIFT + 1..4          -> same as CTRL + ALT + 1..4
         ALT + CTRL + SHIFT + Q -> exits the program
         ALT + CTRL + SHIFT + S -> starts/stops handling of other hotkeys
 
 the nerds can build it with
 
-        git clone https://github.com/papplampe/virgo.git
+        git clone https://github.com/lomotHo/virgo.git
         cd virgo
         make
 
