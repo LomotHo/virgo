@@ -316,6 +316,7 @@ void __main(void)
 			virgo_go_to_desk(&v, msg.wParam / 2);
 		} else {
 			virgo_move_to_desk(&v, (msg.wParam - 1) / 2);
+			virgo_go_to_desk(&v, msg.wParam / 2);
 		}
 	}
 	virgo_deinit(&v);
